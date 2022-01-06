@@ -8,6 +8,7 @@ export default function Profile() {
             <div className='profile-parent'>
                 <div className='profile-details'>
                     <div className='colz'>
+                        <div className='colz-icon'>
                         <a href='#'>
                             <i className='fa fa-facebook-square'></i>
                         </a>
@@ -23,6 +24,7 @@ export default function Profile() {
                         <a href='https://github.com/Deathkon'>
                             <i className='fa fa-github-square'></i>
                         </a>
+                        </div>
                     </div>
                     <div className='profile-details-name'>
                         <span className='primary-text'>
@@ -35,7 +37,7 @@ export default function Profile() {
                             {" "}
                             <h1>
                                 {" "}
-                                <Typical>
+                                <Typical
                                     loop={Infinity}
                                     steps={[
                                         'Enthusiastic Dev 😎',
@@ -46,10 +48,10 @@ export default function Profile() {
                                         1000,
                                         'Cross Platform Dev 🔴',
                                         1000,
-                                        'React/React Native Dev 🌐',
+                                        'React JS Developer🌐',
                                         1000,
                                     ]}
-                                </Typical>
+                                />
                             </h1>
                             <span className='profile-role-tagline'>
                                 {" "}
@@ -66,6 +68,9 @@ export default function Profile() {
                         <button className='btn highlighted-btn'>Get Resume</button>
                     </a>
                     </div>
+                </div>
+                <div className='profile-picture-background'>
+
                 </div>
             </div>
         </div>
