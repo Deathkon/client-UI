@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import Typical from 'react-typical'
+import React from 'react';
+import Typical from 'react-typical';
+import './Profile.css';
 
 export default function Profile() {
     return (
@@ -16,7 +17,7 @@ export default function Profile() {
                             <i className='fa fa-linkedin-square'></i>
                         </a>
                         <a href='https://www.instagram.com/govirtual1/'>
-                            <i className='fa fa-instagram-square'></i>
+                        <i className='fa fa-instagram'></i>
                         </a>
                         <a href='#'>
                             <i className='fa fa-twitter-square'></i>
@@ -55,7 +56,7 @@ export default function Profile() {
                             </h1>
                             <span className='profile-role-tagline'>
                                 {" "}
-                                I'm a Full Stack Developer with a passion for building beautiful, interactive, and user-friendly web platform and applications.
+                                I'm a Full Stack Developer with a passion for building beautiful, interactive, and user-friendly applications.
                             </span>
                         </span>
                     </div>
@@ -69,8 +70,8 @@ export default function Profile() {
                     </a>
                     </div>
                 </div>
-                <div className='profile-picture-background'>
-
+                <div className='profile-picture'>
+                    <div className='profile-picture-background'></div>
                 </div>
             </div>
         </div>
