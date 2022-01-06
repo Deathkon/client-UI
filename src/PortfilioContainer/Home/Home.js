@@ -1,16 +1,15 @@
-import React from "react";
-import Profile from "./Profile/Profile";
-import Footer from "./Footer/Footer";
-import Header from "./Header/Header";
+import "../App.css";
+import PortfolioContainer from "./PortfolioContainer/PortfolioContainer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-import "./Home.css";
-
-export default function Home(props) {
+function App() {
   return (
-    <div className="home-container" id={props.id || ""}>
-      <Header />
-      <Profile />
-      <Footer />
+    <div className="App">
+      <ToastContainer/>
+      <PortfolioContainer/>
     </div>
   );
 }
+
+export default App;
