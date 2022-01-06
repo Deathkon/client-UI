@@ -1,9 +1,13 @@
-import './App.css';
-import Home from './PortfilioContainer/Home/Home';
+import "./App.css";
+import PortfolioContainer from './PortfilioContainer'
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <ToastContainer />
+      <PortfolioContainer />
     </div>
   );
 }
